@@ -6,11 +6,13 @@ import Counter from './components/Counter';
 import FetchData from './components/FetchData';
 
 import './custom.css'
+import AboutUs from './components/AboutUs';
 
 export default () => (
     <Layout>
         <Route exact path='/' component={Home} />
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data/:startDateIndex?' component={FetchData} />
+        <Route path='/AboutUs' component={AboutUs} />
     </Layout>
 );

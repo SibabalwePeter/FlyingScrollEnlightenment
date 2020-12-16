@@ -60,7 +60,7 @@ const Slideshow =() =>{
   );
 }
 
-const Example = () => {
+const Home = () => {
   return (
 
     <div>
@@ -95,4 +95,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default Home;
