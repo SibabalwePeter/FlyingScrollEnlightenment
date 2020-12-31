@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Container, Navbar, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './NavMenu.css';
+import logo from '../Pictures/FLYING SCROL LOGO.jpg'
 
 export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }> {
     public state = {
@@ -13,7 +14,7 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
             <header>
                 <Navbar className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" light>
                     <Container>
-                        <NavbarBrand tag={Link} to="/">FlyingScrollEnlightenment</NavbarBrand>
+                        <img src={logo} alt='Logo' style={{width: 100, height: 50 }}/>
                         <NavbarToggler onClick={this.toggle} className="mr-2"/>
                         <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
                             <ul className="navbar-nav flex-grow">
