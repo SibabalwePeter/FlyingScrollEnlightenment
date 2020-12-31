@@ -1,73 +1,93 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import {
   Card, CardTitle, CardText, CardDeck,
   CardSubtitle, CardBody
 } from 'reactstrap';
-import Footer from './Footer';
+import {
+  Carousel,
+  CarouselItem,
+  CarouselControl,
+  CarouselIndicators,
+  CarouselCaption
+} from 'reactstrap';
 
-const Slideshow =() =>{
-  return(
-    <div id="carousel-example-2" className="carousel slide carousel-fade" data-ride="carousel">
-      <ol className="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" className="active"></li>
-        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-        <li data-target="#carousel-example-2" data-slide-to="2"></li>
-      </ol>
+const items = [
+  {
+    id: 1,
+    altText: 'Slide 1',
+    caption: 'Slide 1'
+  },
+  {
+    id: 2,
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    id: 3,
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  }
+];
 
-      <div className="carousel-inner" role="listbox">
-        <div className="carousel-item active">
-          <div className="view">
-            <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide"></img>
-            <div className="mask rgba-black-light"></div>
-          </div>
-          <div className="carousel-caption">
-            <h3 className="h3-responsive">Light mask</h3>
-            <p>First text</p>
-          </div>
-        </div>
-      </div>
+const Slideshow = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [animating, setAnimating] = useState(false);
 
-      <div className="carousel-item">
-        <div className="view">
-          <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide"></img>
-          <div className="mask rgba-black-strong"></div>
-        </div>
-        <div className="carousel-caption">
-          <h3 className="h3-responsive">Strong mask</h3>
-          <p>Secondary text</p>
-        </div>
-      </div>
-      <div className="carousel-item">
-      <div className="view">
-        <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-          alt="Third slide"></img>
-        <div className="mask rgba-black-slight"></div>
-        </div>
-        <div className="carousel-caption">
-          <h3 className="h3-responsive">Slight mask</h3>
-          <p>Third text</p>
-        </div>
-      </div>
-      <a className="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="sr-only">Previous</span>
-      </a>
-      <a className="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="sr-only">Next</span>
-      </a>
-    </div>
-  );
-}
+  const next = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+    setActiveIndex(nextIndex);
+  }
 
-const Home = () => {
+  const previous = () => {
+    if (animating) return;
+    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+    setActiveIndex(nextIndex);
+  }
+
+  const goToIndex = (newIndex: React.SetStateAction<number>) => {
+    if (animating) return;
+    setActiveIndex(newIndex);
+  }
+
+  const slides = items.map((item) => {
+    return (
+      <CarouselItem
+        className="custom-tag"
+        tag="div"
+        key={item.id}
+        onExiting={() => setAnimating(true)}
+        onExited={() => setAnimating(false)}
+      >
+        <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} />
+      </CarouselItem>
+    );
+  });
+
   return (
-
     <div>
-      <Slideshow />
-      <br></br>
-      <br></br>
-        <CardDeck>
+      <style>
+        {
+          `.custom-tag {
+              max-width: 100%;
+              height: 250px;
+              background: black;
+            }`
+        }
+      </style>
+      <Carousel
+        activeIndex={activeIndex}
+        next={next}
+        previous={previous}
+      >
+        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+        {slides}
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+      </Carousel>
+      <br/>
+      <br/>
+      <CardDeck>
           <Card>
             <CardBody>
               <CardTitle tag="h5">Career Development Programme</CardTitle>
@@ -90,9 +110,8 @@ const Home = () => {
             </CardBody>
           </Card>
         </CardDeck>
-        <Footer/>
     </div>
   );
-};
+}
 
-export default Home;
+export default Slideshow;
