@@ -15,12 +15,18 @@ import '../Styles/Home.css';
 const items = [
   {
     id: 1,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: ' Sba',
+    caption: 'Flying Scroll Enlightenment (Pty) Ltd is a career development'
+    + 'programme, education system programme, and youth development'
+    + 'programme. Its holistic model system designed to break the cycle of'
+    + 'poverty and generational repetition of low educational attainment.'
   },
   {
     id: 2,
-    altText: 'Slide 2',
+    altText: 'Flying Scroll Enlightenment (Pty) Ltd is a career development'
+    + 'programme, education system programme, and youth development'
+    + 'programme. Its holistic model system designed to break the cycle of'
+    + 'poverty and generational repetition of low educational attainment.',
     caption: 'Slide 2'
   },
   {
