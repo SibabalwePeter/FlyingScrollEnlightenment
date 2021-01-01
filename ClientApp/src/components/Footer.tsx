@@ -1,23 +1,13 @@
 import * as React from 'react';
+import '../Styles/Footer.css'
 
-export default class Footer extends React.PureComponent<{}, { isOpen: boolean }> {
-    public state = {
-        isOpen: false
-    };
-
-    public render() {
-        return (
-            <footer>
-            <div className="footer-copyright text-center py-3">© 2020 Copyright:
-              <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+const Footer = () => {
+    return (
+        <footer>
+            <div id="footer" className="footer-copyright text-center py-3 mb-1">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
             </div>
-          </footer>
-        );
-    }
-
-    private toggle = () => {
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
-    }
+        </footer>
+    );
 }
+    export default Footer;

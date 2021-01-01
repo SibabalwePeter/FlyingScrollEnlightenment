@@ -10,6 +10,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import '../Styles/Home.css';
 
 const items = [
   {
@@ -86,8 +87,8 @@ const Slideshow = () => {
         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
       </Carousel>
       <br/>
-      <br/>
       <CardDeck>
+      
           <Card>
             <CardBody>
               <CardTitle tag="h5">Career Development Programme</CardTitle>
@@ -95,6 +96,7 @@ const Slideshow = () => {
               <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
             </CardBody>
           </Card>
+        
           <Card>
             <CardBody>
               <CardTitle tag="h5">Education System Programme</CardTitle>
@@ -110,6 +112,7 @@ const Slideshow = () => {
             </CardBody>
           </Card>
         </CardDeck>
+    <br/>
     </div>
   );
 }
