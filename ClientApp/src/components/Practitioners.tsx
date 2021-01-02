@@ -1,13 +1,16 @@
 import * as React from 'react';
-import { Container} from 'reactstrap';
+import { CardImg, Container} from 'reactstrap';
+import {
+    Card, CardTitle, CardText, CardDeck,
+    CardSubtitle, CardBody
+  } from 'reactstrap';
+import Logo from "../Pictures/FLYING SCROL LOGO.jpg";
 
-
-
-class PractitionersAndLearners extends React.PureComponent {
+class Practitioners extends React.PureComponent {
     public render() {
         return (
             <Container>
-         <h2>Practitioners And Learners</h2>
+         <h2>Practitioners</h2>
                     <h5>Career Development Programme</h5>
                     <p>
                         Flying Scroll Enlightenment career development programme prepares high school learners to be more competitive in global economic activities
@@ -59,6 +62,48 @@ class PractitionersAndLearners extends React.PureComponent {
                         Prevention| Information Technology (IT)| Animals, Agriculture and Natural Resources| Transportation, Distribution and Logistics
                     </p>
                     <p>
+                    <CardDeck>
+                        <Card >
+                            <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                            <CardBody>
+                            <CardTitle><h5>Career Development </h5></CardTitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
+                            <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                            </CardBody>
+                        </Card>
+                        <Card >
+                            <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                            <CardBody>
+                            <CardTitle><h5>Career Development </h5></CardTitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
+                            <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                            </CardBody>
+                        </Card>
+                        <Card >
+                            <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                            <CardBody>
+                            <CardTitle><h5>Career Development </h5></CardTitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
+                            <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                            </CardBody>
+                        </Card>
+                        <Card >
+                            <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                            <CardBody>
+                            <CardTitle><h5>Career Development </h5></CardTitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
+                            <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                            </CardBody>
+                        </Card>
+                        <Card >
+                            <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                            <CardBody>
+                            <CardTitle><h5>Career Development </h5></CardTitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
+                            <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                            </CardBody>
+                        </Card>
+                    </CardDeck>
                         <strong>Arts, A/V Technology and Communications:</strong> Interest in creative or performing arts, communication or A/V technology.<br/>
                         
                         Actor<br/>
@@ -358,4 +403,4 @@ class PractitionersAndLearners extends React.PureComponent {
     }
 };
 
-export default PractitionersAndLearners;
+export default Practitioners;
