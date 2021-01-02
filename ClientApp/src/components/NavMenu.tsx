@@ -12,26 +12,26 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
     public render() {
         return (
             <header>
-                <Navbar className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" light>
+                <Navbar className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
                     <Container>
-                        <img src={logo} alt='Logo' style={{width: 100, height: 50 }}/>
+                        <img src={logo} alt='Logo' style={{width: 101, height: 50 }}/>
                         <NavbarToggler onClick={this.toggle} className="mr-2"/>
                         <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
                             <ul className="navbar-nav flex-grow">
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
+                                    <NavLink tag={Link} to="/" className="text-white">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark ml-3" to="/counter">Counter</NavLink>
+                                    <NavLink tag={Link} className="text-white ml-3" to="/counter">Counter</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark ml-3" to="/PractitionersAndLearners">Practitioners And Learners</NavLink>
+                                    <NavLink tag={Link} className="text-white ml-3" to="/PractitionersAndLearners">Practitioners And Learners</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark ml-3" to="/Services">Services</NavLink>
+                                    <NavLink tag={Link} className="text-white ml-3" to="/Services">Services</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} className="text-dark ml-3" to="/AboutUs">About Us</NavLink>
+                                    <NavLink tag={Link} className="text-white ml-3" to="/AboutUs">About Us</NavLink>
                                 </NavItem>
                             </ul>
                         </Collapse>

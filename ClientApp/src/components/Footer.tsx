@@ -5,7 +5,6 @@ const Footer = () => {
     return (
         <footer>
             <div id="footer" className="footer-copyright text-center py-3 mb-1">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
             </div>
         </footer>
     );

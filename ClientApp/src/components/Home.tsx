@@ -97,7 +97,7 @@ const Slideshow = () => {
       
           <Card>
             <CardBody>
-              <CardTitle tag="h5">Career Development Programme</CardTitle>
+              <CardTitle><h5>Career Development </h5></CardTitle>
               <CardSubtitle tag="h6" className="mb-2 text-muted"></CardSubtitle>
               <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
             </CardBody>
