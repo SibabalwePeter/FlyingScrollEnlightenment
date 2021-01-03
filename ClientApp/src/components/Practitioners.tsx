@@ -4,8 +4,23 @@ import {
     Card, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
   } from 'reactstrap';
-import Logo from "../Pictures/FLYING SCROL LOGO.jpg";
 import ArtsPicture from '../Pictures/Arts.jpg';
+import Science from '../Pictures/Science.jpeg';
+import Farming from '../Pictures/Farming.jpeg';
+import Law from '../Pictures/Law.jpeg';
+import Industrial from '../Pictures/Industrial.jpeg';
+import Accounting from '../Pictures/Accounting.jpeg';
+import Hospitality from '../Pictures/Hospitality.jpeg';
+import SocialWorker from '../Pictures/SocialWorker.jpeg';
+import CityPlanning from '../Pictures/CityPlannng.jpeg';
+import Architecture from '../Pictures/Architecture.jpeg';
+import Education from '../Pictures/Education.jpeg';
+import RealEstate from '../Pictures/RealEstate.jpeg';
+import IT from '../Pictures/IT.jpeg';
+import Finance from '../Pictures/Finance.jpeg';
+import HealthSciences from '../Pictures/HealthSciences.jpeg';
+import Transportation from '../Pictures/Transportation.jpeg';
+import Animals from '../Pictures/Animals.jpeg';
 
 class Practitioners extends React.PureComponent {
     public render() {
@@ -62,7 +77,6 @@ class Practitioners extends React.PureComponent {
                         Architecture, Design and Construction| Education and Training| Finance, Banking, Investments and Insurance| Health Sciences, Care and
                         Prevention| Information Technology (IT)| Animals, Agriculture and Natural Resources| Transportation, Distribution and Logistics
                     </p>
-                    <p>
                     <CardDeck>
                         <Row className="mb-4">
                             <Card>
@@ -83,350 +97,314 @@ class Practitioners extends React.PureComponent {
                                     Producer and Director &bull;
                                     Set and Exhibit Designer &bull;
                                     Technical Writer &bull;
-                                    Graphic Designer &bull;
+                                    Graphic Designer
                                 </CardText>
                                 </CardBody>
                             </Card>
                             <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={Science} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Science, Technology, Engineering and Mathematics</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in problem-solving, discovering, collecting and analysing information and applying findings to problems in science, math and engineering.</CardSubtitle>
+                                <CardText>
+                                    Aerospace Engineerbr&bull;
+                                    Biologistbr&bull;
+                                    Chemist&bull;
+                                    Electrical and Electronics Engineer&bull;
+                                     Geographer&bull;
+                                    Petroleum Engineer &bull;
+                                    Mechanical Engineer&bull;
+                                    Meteorologist&bull;
+                                    Physicist&bull;
+                                    Safety Engineer
+                                </CardText>
                                 </CardBody>
                             </Card>
                             <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={Farming} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Plants, Agriculture and Natural Resources</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in activities involving plants, usually in an outdoor setting.</CardSubtitle>
+                                <CardText>
+                                    Agricultural Engineer&bull;
+                                    Agricultural Scientist&bull;
+                                    Animal Trainer&bull;
+                                    Chef&bull;
+                                    Conservation Scientist&bull;
+                                    Farm Equipment Mechanic&bull;
+                                    Fish and Game Warden&bull;
+                                    Forester&bull;
+                                    Veterinarian&bull;
+                                    Zoologist
+                                </CardText>
                                 </CardBody>
                             </Card>
                         </Row>
                         <Row className="mb-4">
                             <Card>
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={Law} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in creative or performing arts, communication or A/V technology</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Law, Public Safety, Corrections and Security</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in judicial, legal and protective services for people and property.</CardSubtitle>
+                                <CardText>
+                                    Coroner&bull;
+                                    Corrections Officer&bull;
+                                    Court Clerk&bull;
+                                    Detective and Investigator&bull;
+                                    Fire fighter&bull;
+                                    Judge&bull;
+                                    Lawyer&bull;
+                                    Life Guard and Ski Patrolman&bull;
+                                    Police Patrol Officer
+                                </CardText>
+                                </CardBody>
+                            </Card>
+                            <Card>
+                                <CardImg top width="100%" src={Transportation} alt="cardn images cap"></CardImg>
+                                <CardBody>
+                                <CardTitle><h5>Transportation, Distribution and Logistics</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in the movement of people, and goods by road, pipeline, air, railroad or water.</CardSubtitle>
+                                <CardText>
+                                    Air Traffic Controller&bull;
+                                    Airplane Pilot&bull;
+                                    Automobile Mechanic&bull;
+                                    Flight Attendant&bull;
+                                    Motorboat Mechanic&bull;
+                                    School Bus Driver&bull;
+                                    Subway and Streetcar Operator&bull;
+                                    Traffic Technician&bull;
+                                    Transportation Agent
+                                </CardText>
                                 </CardBody>
                             </Card>
                             <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={Accounting} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Business, Management and Administration</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in organizing, directing and evaluating business functions.</CardSubtitle>
+                                <CardText>
+                                    Accountant&bull;
+                                    Advertising Manager&bull;
+                                    Computer Operator&bull;
+                                    Court Reporter&bull;
+                                    Management Analyst&bull;
+                                    Meeting and Convention Planner&bull;
+                                    Payroll Clerk&bull;
+                                    Property and Real Estate Manager&bull;
+                                    Shipping and Receiving Clerk&bull;
+                                    Statistician
+                                </CardText>
                                 </CardBody>
                             </Card>
                             <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={Hospitality} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
-                                </CardBody>
-                            </Card>
-                            <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Hospitality and Tourism</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in providing services to others in travel planning and hospitality services in hotels, restaurants and recreation.</CardSubtitle>
+                                <CardText>
+                                    Baggage Porter and Bellhop&bull;
+                                    Chef and Dinner Cook&bull;
+                                    Food Service Worker&bull;
+                                    Hotel Manager&bull;
+                                    Janitor/Housekeeper Supervisor&bull;
+                                    Reservation and Ticket Agent&bull;
+                                    Restaurant Manager&bull;
+                                    Tour Guide&bull;
+                                    Travel Agent
+                                </CardText>
                                 </CardBody>
                             </Card>
                         </Row>
                         <Row className="mb-4">
                             <Card>
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={RealEstate} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Marketing, Sales and Service</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in bringing others to a point of view through personal persuasion, using sales or promotional techniques.</CardSubtitle>
+                                <CardText>
+                                    Advertising Salesperson&bull;
+                                    Buyer and Purchasing Agent&bull;
+                                    Customer Service Representative&bull;
+                                    Floral Designer&bull;
+                                    Market Research Analyst&bull;
+                                    Public Relations Specialist&bull;
+                                    Real Estate Agent&bull;
+                                    Sales Manager&bull;
+                                    Telemarketer
+                                </CardText>
                                 </CardBody>
                             </Card>
                             <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={SocialWorker} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Human Services</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in helping others with their mental, spiritual, social, physical or career needs.</CardSubtitle>
+                                <CardText>
+                                    Child Care Worker&bull;
+                                    Clergy&bull;
+                                    Cosmetologist&bull;
+                                    Counsellor&bull;
+                                    Funeral Director&bull;
+                                    Manicurist&bull;
+                                    Professional Makeup Artist&bull;
+                                    Financial Adviser&bull;
+                                    Psychologist&bull;
+                                    Residential Counsellor&bull;
+                                    Social Worker
+                                </CardText>
                                 </CardBody>
                             </Card>
                             <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={CityPlanning} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Government and Public Administration</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in performing government functions at the local, state or federal level.</CardSubtitle>
+                                <CardText>
+                                    City Planning Aide Construction/Building&bull;
+                                    Inspector Interpreter and Translator&bull;
+                                    License Clerk&bull;
+                                    Occupational Health Specialist&bull;
+                                    Tax Examiner
+                                </CardText>
                                 </CardBody>
                             </Card>
-                            <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                            <Card>
+                                <CardImg top width="100%" src={Education} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Education and Training </h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in planning, managing and providing educational services, including support services, library and information services.</CardSubtitle>
+                                <CardText>
+                                    Audio/Visual Specialist&bull;
+                                    Coach and Sports Instructor&bull;
+                                    College/University Administrator&bull;
+                                    Teacher/Professor&bull;
+                                    Librarian&bull;
+                                    Public Health Educator&bull;
+                                    Special Education Teacher&bull;
+                                    Speech Pathologist
+                                </CardText>
                                 </CardBody>
                             </Card>
                         </Row>
                         <Row className="mb-4">
+                            <Card >
+                                <CardImg top width="100%" src={Architecture} alt="cardn images cap"></CardImg>
+                                <CardBody>
+                                <CardTitle><h5>Architecture, Design and Construction</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in designing, planning, managing, building and maintaining physical structures.</CardSubtitle>
+                                <CardText>
+                                        Architect&bull;
+                                        Cabinetmaker&bull;
+                                        Carpenter&bull;
+                                        Construction Manager&bull;
+                                        Electrician&bull;
+                                        Civil Engineer&bull;
+                                        General Construction Worker&bull;
+                                        Highway Maintenance Worker&bull;
+                                        Interior Designer&bull;
+                                        Sheet Metal Worker Surveying and Mapping&bull;
+                                        Technician
+                                </CardText>
+                                </CardBody>
+                            </Card>
+                            <Card >
+                                <CardImg top width="100%" src={Finance} alt="cardn images cap"></CardImg>
+                                <CardBody>
+                                <CardTitle><h5>Finance, Banking, Investments and Insurance</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in financial and investment planning and management, and providing banking and insurance services.</CardSubtitle>
+                                <CardText>
+                                    Accounting Clerk&bull;
+                                    Appraiser&bull;
+                                    Credit Analyst&bull;
+                                    Credit Checker&bull;
+                                    Economist&bull;
+                                    Financial Counsellor&bull;
+                                    Insurance Adjuster and Examiner&bull;
+                                    Insurance Agent&bull;
+                                    Loan Officer&bull;
+                                    Tax Preparer
+                                </CardText>
+                                </CardBody>
+                            </Card>
+                            <Card >
+                                <CardImg top width="100%" src={HealthSciences} alt="cardn images cap"></CardImg>
+                                <CardBody>
+                                <CardTitle><h5>Health Sciences, Care and Prevention</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in helping others by providing diagnostic, therapeutic, informational and environmental services, including researching and developing new health care services.</CardSubtitle>
+                                <CardText>
+                                    Anaesthesiologist&bull;
+                                    Athletic Trainer&bull;
+                                    Chiropractor&bull;
+                                    Dentist&bull;
+                                    Emergency Medical Technician&bull;
+                                    Physical Therapist&bull;
+                                    Occupational Therapist&bull;
+                                    Pharmacist&bull;
+                                    Physician&bull;
+                                    Registered Nurse
+                                </CardText>
+                                </CardBody>
+                            </Card>
+                        </Row>
+                        <Row>
                             <Card>
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={IT} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Information Technology (IT)</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in the design, development, support and management of hardware, software, multimedia, systems integration services and technical support.</CardSubtitle>
+                                <CardText>
+                                    Computer/Information Systems Manager&bull;
+                                    Computer Engineer&bull;
+                                    Computer Programmer&bull;
+                                    Computer Security Specialist&bull;
+                                    Computer Support Specialist&bull;
+                                    Computer Systems Analyst&bull;
+                                    Data Communications Analyse&bull;
+                                    IT Mechanic
+                                </CardText>
+                                </CardBody>
+                            </Card>
+                            <Card>
+                                <CardImg top width="100%" src={Animals} alt="cardn images cap"></CardImg>
+                                <CardBody>
+                                <CardTitle><h5>Agriculture, Animals and Natural Resources</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in activities involving the training, raising, feeding and caring for animals.</CardSubtitle>
+                                <CardText>
+                                    Agricultural Engineer&bull;
+                                    Agricultural Scientist&bull;
+                                    Animal Trainer&bull;
+                                    Chef&bull;
+                                    Conservation Scientist&bull;
+                                    Farm Equipment Mechanic&bull;
+                                    Fish and Game Warden&bull;
+                                    Forester&bull;
+                                    Veterinarian&bull;
+                                    Zoologist
+                                </CardText>
                                 </CardBody>
                             </Card>
                             <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
+                                <CardImg top width="100%" src={Industrial} alt="cardn images cap"></CardImg>
                                 <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
-                                </CardBody>
-                            </Card>
-                            <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
-                                </CardBody>
-                            </Card>
-                            <Card >
-                                <CardImg top width="100%" src={Logo} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Career Development </h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">bjfbvhjdb dfvkbdfv</CardSubtitle>
-                                <CardText>Flying Scroll Enlightenment career development programme is defined as career education, career information, career exploration, career advice and counselling..</CardText>
+                                <CardTitle><h5>Manufacturing (Mechanical/Industrial)</h5></CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in applying mechanical principles to practical situations using machines, hand tools or techniques. / Interest in repetitive, organized activities in a factory or industrial setting.</CardSubtitle>
+                                <CardText>
+                                    Chemical Engineer&bull;
+                                    Forklift Operator&bull;
+                                    Gas and Oil Plant Operator&bull;
+                                    Jeweller&bull;
+                                    Locksmith&bull;
+                                    Metal/Plastic Processing Worker&bull;
+                                    Office Machine Repairer&bull;
+                                    Power Plant Operator&bull;
+                                    Shoe and Leather Worker
+                                    Welder
+                                </CardText>
                                 </CardBody>
                             </Card>
                         </Row>
                     </CardDeck>
-                        
-                        
-                        
-                    </p>
-                    <p>
-                        <strong>Science, Technology, Engineering and Mathematics:</strong>  Interest in problem-solving, discovering, collecting and analysing information and
-                        applying findings to problems in science, math and engineering.<br/>
-
-                        Aerospace Engineerbr<br/>
-                        Biologistbr<br/>
-                        Chemist<br/>
-                        Electrical and Electronics Engineer Geographer<br/>
-                        Petroleum Engineer Mechanical Engineer<br/>
-                        Meteorologist<br/>
-                        Physicist<br/>
-                        Safety Engineer<br/>
-                    </p>
-                    <p>
-                        <strong>Plants, Agriculture and Natural Resources: </strong> Interest in activities involving plants, usually in an outdoor setting.<br/>
-
-                        Agricultural Engineer<br/>
-                        Agricultural Scientist<br/>
-                        Animal Trainer<br/>
-                        Chef<br/>
-                        Conservation Scientist<br/>
-                        Farm Equipment Mechanic<br/>
-                        Fish and Game Warden<br/>
-                        Forester<br/>
-                        Veterinarian<br/>
-                        Zoologist<br/>
-                    </p>
-                    <p>
-                        <strong>Law, Public Safety, Corrections and Security:</strong> Interest in judicial, legal and protective services for people and property.<br/>
-
-                        Coroner<br/>
-                        Corrections Officer<br/>
-                        Court Clerk<br/>
-                        Detective and Investigator<br/>
-                        Fire fighter<br/>
-                        Judge<br/>
-                        Lawyer<br/>
-                        Life Guard and Ski Patrolman<br/>
-                        Police Patrol Officer<br/>
-                    </p>
-                    <p>
-                        <strong>Manufacturing (Mechanical/Industrial): </strong> Interest in applying mechanical principles to practical situations using machines, hand tools or
-                        techniques. / Interest in repetitive, organized activities in a factory or industrial setting.
-                        <br/>
-
-                        Chemical Engineer<br/>
-                        Forklift Operator<br/>
-                        Gas and Oil Plant Operator<br/>
-                        Jeweller<br/>
-                        Locksmith<br/>
-                        Metal/Plastic Processing Worker<br/>
-                        Office Machine Repairer<br/>
-                        Power Plant Operator<br/>
-                        Shoe and Leather Worker<br/>
-                        Welder
-                    </p>
-                    <p>
-                        <strong>Business, Management and Administration:  </strong>  Interest in organizing, directing and evaluating business functions.<br/>
-
-                        Accountant<br/>
-                        Advertising Manager<br/>
-                        Computer Operator<br/>
-                        Court Reporter<br/>
-                        Management Analyst<br/>
-                        Meeting and Convention Planner<br/>
-                        Payroll Clerk<br/>
-                        Property and Real Estate Manager<br/>
-                        Shipping and Receiving Clerk<br/>
-                        Statistician<br/>
-
-                    </p>
-                    <p>
-                        <strong>Marketing, Sales and Service: </strong> Interest in bringing others to a point of view through personal persuasion, using sales or promotional techniques.<br/>
-
-                        Advertising Salesperson<br/>
-                        Buyer and Purchasing Agent<br/>
-                        Customer Service Representative<br/>
-                        Floral Designer<br/>
-                        Market Research Analyst<br/>
-                        Public Relations Specialist<br/>
-                        Real Estate Agent<br/>
-                        Sales Manager<br/>
-                        Telemarketer<br/>
-
-                    </p>
-                    <p>
-                        <strong>Hospitality and Tourism: </strong>Interest in providing services to others in travel planning and hospitality services in hotels, restaurants and recreation.<br/>
-
-                        Baggage Porter and Bellhop<br/>
-                        Chef and Dinner Cook<br/>
-                        Food Service Worker<br/>
-                        Hotel Manager<br/>
-                        Janitor/Housekeeper Supervisor<br/>
-                        Reservation and Ticket Agent<br/>
-                        Restaurant Manager<br/>
-                        Tour Guide<br/>
-                        Travel Agent<br/>
-                    </p>
-                    <p>
-                        <strong>Human Services:</strong>Interest in helping others with their mental, spiritual, social, physical or career needs.<br/>
-
-                        Child Care Worker<br/>
-                        Clergy<br/>
-                        Cosmetologist<br/>
-                        Counsellor<br/>
-                        Funeral Director<br/>
-                        Manicurist<br/>
-                        Professional Makeup Artist<br/>
-                        Financial Adviser<br/>
-                        Psychologist<br/>
-                        Residential Counsellor<br/>
-                        Social Worker<br/>
-                    </p>
-                    <p>
-                        <strong>Government and Public Administration:</strong>Interest in performing government functions at the local, state or federal level.<br/>
-
-                        City Planning Aide Construction/Building<br/>
-                        Inspector Interpreter and Translator<br/>
-                        License Clerk<br/>
-                        Occupational Health Specialist<br/>
-                        Tax Examiner<br/>
-                    </p>
-                    <p>
-                        <strong>Architecture, Design and Construction: </strong>Interest in designing, planning, managing, building and maintaining physical structures.<br/>
-
-                        Architect<br/>
-                        Cabinetmaker<br/>
-                        Carpenter<br/>
-                        Construction Manager<br/>
-                        Electrician<br/>
-                        Civil Engineer<br/>
-                        General Construction Worker<br/>
-                        Highway Maintenance Worker<br/>
-                        Interior Designer<br/>
-                        Sheet Metal Worker Surveying and Mapping<br/>
-                        Technician<br/>
-                    </p>
-                    <p>
-                        <strong>Education and Training:</strong> Interest in planning, managing and providing educational services, including support services, library and information services.<br/>
-
-                        Audio/Visual Specialist<br/>
-                        Coach and Sports Instructor<br/>
-                        College/University Administrator<br/>
-                        Teacher/Professor<br/>
-                        Librarian<br/>
-                        Public Health Educator<br/>
-                        Special Education Teacher<br/>
-                        Speech Pathologist<br/>
-                    </p>
-                    <p>
-                        <strong>Finance, Banking, Investments and Insurance:</strong>Interest in financial and investment planning and management, and providing banking and insurance services.<br/>
-
-                        Accounting Clerk<br/>
-                        Appraiser<br/>
-                        Credit Analyst<br/>
-                        Credit Checker<br/>
-                        Economist<br/>
-                        Financial Counsellor<br/>
-                        Insurance Adjuster and Examiner<br/>
-                        Insurance Agent<br/>
-                        Loan Officer<br/>
-                        Tax Preparer<br/>
-                    </p>
-                    <p>
-                        <strong>Health Sciences, Care and Prevention:</strong>Interest in helping others by providing diagnostic, therapeutic, informational and environmental services, including researching and developing new health care services.<br/>
-
-                        Anaesthesiologist<br/>
-                        Athletic Trainer<br/>
-                        Chiropractor<br/>
-                        Dentist<br/>
-                        Emergency Medical Technician<br/>
-                        Physical Therapist<br/>
-                        Occupational Therapist<br/>
-                        Pharmacist<br/>
-                        Physician<br/>
-                        Registered Nurse<br/>
-                    </p>
-                    <p>
-                        <strong>Information Technology (IT): </strong> Interest in the design, development, support and management of hardware, software, multimedia, systems integration services and technical support.<br/>
-
-                        Computer/Information Systems Manager<br/>
-                        Computer Engineer<br/>
-                        Computer Programmer<br/>
-                        Computer Security Specialist<br/>
-                        Computer Support Specialist<br/>
-                        Computer Systems Analyst<br/>
-                        Data Communications Analyse<br/>
-                        IT Mechanic
-                    </p>
-                    <p>
-                        <strong>Agriculture, Animals and Natural Resources:</strong>Interest in activities involving the training, raising, feeding and caring for animals.<br/>
-
-                        Agricultural Engineer<br/>
-                        Agricultural Scientist<br/>
-                        Animal Trainer<br/>
-                        Chef<br/>
-                        Conservation Scientist<br/>
-                        Farm Equipment Mechanic<br/>
-                        Fish and Game Warden<br/>
-                        Forester<br/>
-                        Veterinarian<br/>
-                        Zoologist<br/>
-                    </p>
-                    <p>
-                        <strong>Transportation, Distribution and Logistics:</strong>Interest in the movement of people, and goods by road, pipeline, air, railroad or water.<br/>
-
-                        Air Traffic Controller<br/>
-                        Airplane Pilot<br/>
-                        Automobile Mechanic<br/>
-                        Flight Attendant<br/>
-                        Motorboat Mechanic<br/>
-                        School Bus Driver<br/>
-                        Subway and Streetcar Operator<br/>
-                        Traffic Technician<br/>
-                        Transportation Agent<br/>
-                    </p>
+                    <br/>
           </Container>
                
         );
