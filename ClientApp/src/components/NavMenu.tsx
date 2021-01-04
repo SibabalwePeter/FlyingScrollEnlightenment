@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Collapse, Container, Navbar, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import './NavMenu.css';
+import '../Styles/NavMenu.css';
 import logo from '../Pictures/FLYING SCROL LOGO.jpg'
 
 export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }> {

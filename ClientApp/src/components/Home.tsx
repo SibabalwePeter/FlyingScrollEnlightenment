@@ -11,6 +11,9 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import '../Styles/Home.css';
+import Science from '../Pictures/Farming.jpeg';
+import Farming from '../Pictures/Farming.jpeg';
+import Law from '../Pictures/IT.jpeg';
 
 const items = [
   {
@@ -73,6 +76,7 @@ const Slideshow = () => {
 
   return (
     <div>
+      
       <style>
         {
           `.custom-tag {
@@ -92,6 +96,7 @@ const Slideshow = () => {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
       </Carousel>
+      
       <br/>
       <CardDeck>
       
