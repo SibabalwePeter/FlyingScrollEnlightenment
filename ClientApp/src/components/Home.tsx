@@ -18,24 +18,27 @@ import Law from '../Pictures/IT.jpeg';
 const items = [
   {
     id: 1,
-    altText: ' Sba',
-    caption: 'Flying Scroll Enlightenment (Pty) Ltd is a career development'
+    caption: '',
+    altText: 'Flying Scroll Enlightenment (Pty) Ltd is a career development'
     + 'programme, education system programme, and youth development'
     + 'programme. Its holistic model system designed to break the cycle of'
     + 'poverty and generational repetition of low educational attainment.'
   },
   {
     id: 2,
-    altText: 'Flying Scroll Enlightenment (Pty) Ltd is a career development'
-    + 'programme, education system programme, and youth development'
-    + 'programme. Its holistic model system designed to break the cycle of'
-    + 'poverty and generational repetition of low educational attainment.',
-    caption: 'Slide 2'
+    caption: ' ',
+    altText: 'Our career development programme provides a method for schools to '
+    +'systematise guidelines and learner experiences around various categories '
+    + 'encompass virtually all occupations from entry through professional levels.'
+    + 'These alignment of occupations are used as an organizing tool for...'
   },
   {
     id: 3,
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: '',
+    altText: 'Flying Scroll Enlightenment holistic educational system model is driven '
+      + 'by Investment in Human Capital and Intellectual Standard. Our holistic educational'
+      + 'system model opens an opportunity to change lives, acquire good outcomes and '
+      + 'maximize resources, thus breaking the cycle...'
   }
 ];
 
@@ -69,7 +72,7 @@ const Slideshow = () => {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
       >
-        <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} />
+        <CarouselCaption className="text-white" captionText={item.caption} captionHeader={item.altText} />
       </CarouselItem>
     );
   });
@@ -82,7 +85,7 @@ const Slideshow = () => {
           `.custom-tag {
               max-width: 100%;
               height: 250px;
-              background: black;
+              background: rgb(66, 39, 116);
             }`
         }
       </style>
