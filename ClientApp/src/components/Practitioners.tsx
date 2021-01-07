@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container} from 'reactstrap';
 
-import PractitionerCareers from './PractitionerCareers'
+import PractitionerCareers from './Practitioner_Careers'
 
 class Practitioners extends React.PureComponent {
     public render() {
