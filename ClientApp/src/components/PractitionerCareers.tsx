@@ -11,7 +11,6 @@ import {
     CardSubtitle, CardBody, Row, Col
   } from 'reactstrap';
 
-  
 import ArtsPicture from '../Pictures/Arts.jpg';
 import Science from '../Pictures/Science.jpeg';
 import Farming from '../Pictures/Farming.jpeg';
@@ -98,14 +97,16 @@ const PractitionerCareers =()=> {
             <Tab label="Law, Public Safety, Corrections and Security" {...a11yProps(3)} />
             <Tab label="Transportation, Distribution and Logistics" {...a11yProps(4)} />
             <Tab label="Marketing, Sales and Service" {...a11yProps(5)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Business, Management and Administration" {...a11yProps(6)} />
+            <Tab label="Hospitality and Tourism" {...a11yProps(6)} />
+            <Tab label=">Human Services" {...a11yProps(6)} />
+            <Tab label="Education and Training " {...a11yProps(6)} />
+            <Tab label="Architecture, Design and Construction" {...a11yProps(6)} />
+            <Tab label="Finance, Banking, Inveents and Insurance" {...a11yProps(6)} />
+            <Tab label="Health Sciences, Care and Prevention" {...a11yProps(6)} />
+            <Tab label="Information Technology (IT)" {...a11yProps(6)} />
+            <Tab label="Agriculture, Animals and Natural Resources" {...a11yProps(6)} />
+            <Tab label="Manufacturing (Mechanical/Industrial)" {...a11yProps(6)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -295,28 +296,311 @@ const PractitionerCareers =()=> {
         </Card>
       </TabPanel>
       <TabPanel value={value} index={6}>
-        Item Seven
+        <Card >
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Accounting} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Accounting} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Accounting} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Business, Management and Administration</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in organizing, directing and evaluating business functions.</CardSubtitle>
+            <CardText>
+                Accountant&bull;
+                Advertising Manager&bull;
+                Computer Operator&bull;
+                Court Reporter&bull;
+                Management Analyst&bull;
+                Meeting and Convention Planner&bull;
+                Payroll Clerk&bull;
+                Property and Real Estate Manager&bull;
+                Shipping and Receiving Clerk&bull;
+                Statistician
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={7}>
-        Item Seven
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Hospitality} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Hospitality} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Hospitality} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Hospitality and Tourism</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in providing services to others in travel planning and hospitality services in hotels, restaurants and recreation.</CardSubtitle>
+            <CardText>
+                Baggage Porter and Bellhop&bull;
+                Chef and Dinner Cook&bull;
+                Food Service Worker&bull;
+                Hotel Manager&bull;
+                Janitor/Housekeeper Supervisor&bull;
+                Reservation and Ticket Agent&bull;
+                Restaurant Manager&bull;
+                Tour Guide&bull;
+                Travel Agent
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={8}>
-        Item Seven
+        <Card >
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={SocialWorker} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={SocialWorker} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={SocialWorker} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Human Services</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in helping others with their mental, spiritual, social, physical or career needs.</CardSubtitle>
+            <CardText>
+                Child Care Worker&bull;
+                Clergy&bull;
+                Cosmetologist&bull;
+                Counsellor&bull;
+                Funeral Director&bull;
+                Manicurist&bull;
+                Professional Makeup Artist&bull;
+                Financial Adviser&bull;
+                Psychologist&bull;
+                Residential Counsellor&bull;
+                Social Worker
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={9}>
-        Item Seven
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Education} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Education} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Education} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Education and Training</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in planning, managing and providing educational services, including support services, library and information services.</CardSubtitle>
+            <CardText>
+                Audio/Visual Specialist&bull;
+                Coach and Sports Instructor&bull;
+                College/University Administrator&bull;
+                Teacher/Professor&bull;
+                Librarian&bull;
+                Public Health Educator&bull;
+                Special Education Teacher&bull;
+                Speech Pathologist
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={10}>
-        Item Seven
+        <Card >
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Architecture} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Architecture} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Architecture} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Architecture, Design and Construction</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in designing, planning, managing, building and maintaining physical structures.</CardSubtitle>
+            <CardText>
+                    Architect&bull;
+                    Cabinetmaker&bull;
+                    Carpenter&bull;
+                    Construction Manager&bull;
+                    Electrician&bull;
+                    Civil Engineer&bull;
+                    General Construction Worker&bull;
+                    Highway Maintenance Worker&bull;
+                    Interior Designer&bull;
+                    Sheet Metal Worker Surveying and Mapping&bull;
+                    Technician
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={11}>
-        Item Seven
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Finance} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Finance} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Finance} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>stmFinance, Banking, Inveents and Insurance</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in financial and investment planning and management, and providing banking and insurance services.</CardSubtitle>
+            <CardText>
+                Accounting Clerk&bull;
+                Appraiser&bull;
+                Credit Analyst&bull;
+                Credit Checker&bull;
+                Economist&bull;
+                Financial Counsellor&bull;
+                Insurance Adjuster and Examiner&bull;
+                Insurance Agent&bull;
+                Loan Officer&bull;
+                Tax Preparer
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={12}>
-        12
+        <Card >
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={HealthSciences} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={HealthSciences} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={HealthSciences} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Health Sciences, Care and Prevention</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in helping others by providing diagnostic, therapeutic, informational and environmental services, including researching and developing new health care services.</CardSubtitle>
+            <CardText>
+                Anaesthesiologist&bull;
+                Athletic Trainer&bull;
+                Chiropractor&bull;
+                Dentist&bull;
+                Emergency Medical Technician&bull;
+                Physical Therapist&bull;
+                Occupational Therapist&bull;
+                Pharmacist&bull;
+                Physician&bull;
+                Registered Nurse
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={13}>
-        13
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={IT} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={IT} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={IT} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Information Technology (IT)</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in the design, development, support and management of hardware, software, multimedia, systems integration services and technical support.</CardSubtitle>
+            <CardText>
+                Computer/Information Systems Manager&bull;
+                Computer Engineer&bull;
+                Computer Programmer&bull;
+                Computer Security Specialist&bull;
+                Computer Support Specialist&bull;
+                Computer Systems Analyst&bull;
+                Data Communications Analyse&bull;
+                IT Mechanic
+            </CardText>
+            </CardBody>
+        </Card>
+      </TabPanel>
+      <TabPanel value={value} index={14}>
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Animals} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Animals} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Animals} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Agriculture, Animals and Natural Resources</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in activities involving the training, raising, feeding and caring for animals.</CardSubtitle>
+            <CardText>
+                Agricultural Engineer&bull;
+                Agricultural Scientist&bull;
+                Animal Trainer&bull;
+                Chef&bull;
+                Conservation Scientist&bull;
+                Farm Equipment Mechanic&bull;
+                Fish and Game Warden&bull;
+                Forester&bull;
+                Veterinarian&bull;
+                Zoologist
+            </CardText>
+            </CardBody>
+        </Card>
+      </TabPanel>
+      <TabPanel value={value} index={15}>
+        <Card >
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Industrial} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Industrial} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Industrial} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Manufacturing (Mechanical/Industrial)</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in applying mechanical principles to practical situations using machines, hand tools or techniques. / Interest in repetitive, organized activities in a factory or industrial setting.</CardSubtitle>
+            <CardText>
+                Chemical Engineer&bull;
+                Forklift Operator&bull;
+                Gas and Oil Plant Operator&bull;
+                Jeweller&bull;
+                Locksmith&bull;
+                Metal/Plastic Processing Worker&bull;
+                Office Machine Repairer&bull;
+                Power Plant Operator&bull;
+                Shoe and Leather Worker
+                Welder
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
     </div>
   );
