@@ -22,6 +22,8 @@ import HealthSciences from '../Pictures/HealthSciences.jpeg';
 import Transportation from '../Pictures/Transportation.jpeg';
 import Animals from '../Pictures/Animals.jpeg';
 
+import PractitionerCareers from './PractitionerCareers'
+
 class Practitioners extends React.PureComponent {
     public render() {
         return (
@@ -77,30 +79,10 @@ class Practitioners extends React.PureComponent {
                         Architecture, Design and Construction| Education and Training| Finance, Banking, Investments and Insurance| Health Sciences, Care and
                         Prevention| Information Technology (IT)| Animals, Agriculture and Natural Resources| Transportation, Distribution and Logistics
                     </p>
+                    <PractitionerCareers />
                     <CardDeck>
                         <Row className="mb-4">
-                            <Card>
-                                <CardImg top width="100%" src={ArtsPicture} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Arts, A/V Technology and Communications</h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in creative or performing arts, communication or A/V technology</CardSubtitle>
-                                <CardText>
-                                    Actor &bull;
-                                    Art &bull;
-                                    Broadcast &bull;
-                                    Camera Operator &bull;
-                                    Composer and Music &bull;
-                                    Film and Video &bull;
-                                    Cartographer &bull;
-                                    News Reporter &bull;
-                                    Photographer &bull;
-                                    Producer and Director &bull;
-                                    Set and Exhibit Designer &bull;
-                                    Technical Writer &bull;
-                                    Graphic Designer
-                                </CardText>
-                                </CardBody>
-                            </Card>
+                            
                             <Card >
                                 <CardImg top width="100%" src={Science} alt="cardn images cap"></CardImg>
                                 <CardBody>
