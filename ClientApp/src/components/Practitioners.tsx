@@ -72,93 +72,15 @@ class Practitioners extends React.PureComponent {
                         Career cluster is an organizational occupations and careers grouped to assist career practitioners in modifying rigorous career
                         programmes/activities for learners.
                     </p>
-                    <p>
-                        Arts, A/V Technology and Communications| Science, Technology, Engineering and Mathematics| Plants, Agriculture and Natural
-                        Resources| Law, Public Safety, Corrections and Security| Manufacturing (Mechanical/Industrial)| Business, Management and
-                        Administration| Marketing, Sales and Service| Hospitality and Tourism| Human Services| Government and Public Administration|
-                        Architecture, Design and Construction| Education and Training| Finance, Banking, Investments and Insurance| Health Sciences, Care and
-                        Prevention| Information Technology (IT)| Animals, Agriculture and Natural Resources| Transportation, Distribution and Logistics
-                    </p>
                     <PractitionerCareers />
                     <CardDeck>
                         <Row className="mb-4">
                             
-                            <Card >
-                                <CardImg top width="100%" src={Science} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Science, Technology, Engineering and Mathematics</h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in problem-solving, discovering, collecting and analysing information and applying findings to problems in science, math and engineering.</CardSubtitle>
-                                <CardText>
-                                    Aerospace Engineerbr&bull;
-                                    Biologistbr&bull;
-                                    Chemist&bull;
-                                    Electrical and Electronics Engineer&bull;
-                                     Geographer&bull;
-                                    Petroleum Engineer &bull;
-                                    Mechanical Engineer&bull;
-                                    Meteorologist&bull;
-                                    Physicist&bull;
-                                    Safety Engineer
-                                </CardText>
-                                </CardBody>
-                            </Card>
-                            <Card >
-                                <CardImg top width="100%" src={Farming} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Plants, Agriculture and Natural Resources</h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in activities involving plants, usually in an outdoor setting.</CardSubtitle>
-                                <CardText>
-                                    Agricultural Engineer&bull;
-                                    Agricultural Scientist&bull;
-                                    Animal Trainer&bull;
-                                    Chef&bull;
-                                    Conservation Scientist&bull;
-                                    Farm Equipment Mechanic&bull;
-                                    Fish and Game Warden&bull;
-                                    Forester&bull;
-                                    Veterinarian&bull;
-                                    Zoologist
-                                </CardText>
-                                </CardBody>
-                            </Card>
+                            
                         </Row>
                         <Row className="mb-4">
-                            <Card>
-                                <CardImg top width="100%" src={Law} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Law, Public Safety, Corrections and Security</h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in judicial, legal and protective services for people and property.</CardSubtitle>
-                                <CardText>
-                                    Coroner&bull;
-                                    Corrections Officer&bull;
-                                    Court Clerk&bull;
-                                    Detective and Investigator&bull;
-                                    Fire fighter&bull;
-                                    Judge&bull;
-                                    Lawyer&bull;
-                                    Life Guard and Ski Patrolman&bull;
-                                    Police Patrol Officer
-                                </CardText>
-                                </CardBody>
-                            </Card>
-                            <Card>
-                                <CardImg top width="100%" src={Transportation} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Transportation, Distribution and Logistics</h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in the movement of people, and goods by road, pipeline, air, railroad or water.</CardSubtitle>
-                                <CardText>
-                                    Air Traffic Controller&bull;
-                                    Airplane Pilot&bull;
-                                    Automobile Mechanic&bull;
-                                    Flight Attendant&bull;
-                                    Motorboat Mechanic&bull;
-                                    School Bus Driver&bull;
-                                    Subway and Streetcar Operator&bull;
-                                    Traffic Technician&bull;
-                                    Transportation Agent
-                                </CardText>
-                                </CardBody>
-                            </Card>
+                            
+                            
                             <Card >
                                 <CardImg top width="100%" src={Accounting} alt="cardn images cap"></CardImg>
                                 <CardBody>
@@ -198,24 +120,7 @@ class Practitioners extends React.PureComponent {
                             </Card>
                         </Row>
                         <Row className="mb-4">
-                            <Card>
-                                <CardImg top width="100%" src={RealEstate} alt="cardn images cap"></CardImg>
-                                <CardBody>
-                                <CardTitle><h5>Marketing, Sales and Service</h5></CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in bringing others to a point of view through personal persuasion, using sales or promotional techniques.</CardSubtitle>
-                                <CardText>
-                                    Advertising Salesperson&bull;
-                                    Buyer and Purchasing Agent&bull;
-                                    Customer Service Representative&bull;
-                                    Floral Designer&bull;
-                                    Market Research Analyst&bull;
-                                    Public Relations Specialist&bull;
-                                    Real Estate Agent&bull;
-                                    Sales Manager&bull;
-                                    Telemarketer
-                                </CardText>
-                                </CardBody>
-                            </Card>
+                            
                             <Card >
                                 <CardImg top width="100%" src={SocialWorker} alt="cardn images cap"></CardImg>
                                 <CardBody>

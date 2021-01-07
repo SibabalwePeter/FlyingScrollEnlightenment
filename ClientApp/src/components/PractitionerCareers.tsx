@@ -92,13 +92,20 @@ const PractitionerCareers =()=> {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-          <Tab label="Arts, A/V Technology and Communications" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
-          <Tab label="Item Four" {...a11yProps(3)} />
-          <Tab label="Item Five" {...a11yProps(4)} />
-          <Tab label="Item Six" {...a11yProps(5)} />
-          <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Arts, A/V Technology and Communications" {...a11yProps(0)} />
+            <Tab label="Science, Technology, Engineering and Mathematics" {...a11yProps(1)} />
+            <Tab label="Plants, Agriculture and Natural Resources" {...a11yProps(2)} />
+            <Tab label="Law, Public Safety, Corrections and Security" {...a11yProps(3)} />
+            <Tab label="Transportation, Distribution and Logistics" {...a11yProps(4)} />
+            <Tab label="Marketing, Sales and Service" {...a11yProps(5)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
+            <Tab label="Item Seven" {...a11yProps(6)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -136,22 +143,180 @@ const PractitionerCareers =()=> {
         </Card>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Science} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                <CardImg top width="100%" src={Science} alt="cardn images cap"></CardImg>
+            </Col>
+            <Col>
+                <CardImg top width="100%" src={Science} alt="cardn images cap"></CardImg>
+            </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Science, Technology, Engineering and Mathematics</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in problem-solving, discovering, collecting and analysing information and applying findings to problems in science, math and engineering.</CardSubtitle>
+            <CardText>
+                Aerospace Engineerbr&bull;
+                Biologistbr&bull;
+                Chemist&bull;
+                Electrical and Electronics Engineer&bull;
+                    Geographer&bull;
+                Petroleum Engineer &bull;
+                Mechanical Engineer&bull;
+                Meteorologist&bull;
+                Physicist&bull;
+                Safety Engineer
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Farming} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Farming} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Farming} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Plants, Agriculture and Natural Resources</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in activities involving plants, usually in an outdoor setting.</CardSubtitle>
+            <CardText>
+                Agricultural Engineer&bull;
+                Agricultural Scientist&bull;
+                Animal Trainer&bull;
+                Chef&bull;
+                Conservation Scientist&bull;
+                Farm Equipment Mechanic&bull;
+                Fish and Game Warden&bull;
+                Forester&bull;
+                Veterinarian&bull;
+                Zoologist
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Law} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Law} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Law} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Law, Public Safety, Corrections and Security</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in judicial, legal and protective services for people and property.</CardSubtitle>
+            <CardText>
+                Coroner&bull;
+                Corrections Officer&bull;
+                Court Clerk&bull;
+                Detective and Investigator&bull;
+                Fire fighter&bull;
+                Judge&bull;
+                Lawyer&bull;
+                Life Guard and Ski Patrolman&bull;
+                Police Patrol Officer
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Item Five
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={Transportation} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Transportation} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={Transportation} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Transportation, Distribution and Logistics</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in the movement of people, and goods by road, pipeline, air, railroad or water.</CardSubtitle>
+            <CardText>
+                Air Traffic Controller&bull;
+                Airplane Pilot&bull;
+                Automobile Mechanic&bull;
+                Flight Attendant&bull;
+                Motorboat Mechanic&bull;
+                School Bus Driver&bull;
+                Subway and Streetcar Operator&bull;
+                Traffic Technician&bull;
+                Transportation Agent
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Item Six
+        <Card>
+            <Row>
+                <Col>
+                    <CardImg top width="100%" src={RealEstate} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={RealEstate} alt="cardn images cap"></CardImg>
+                </Col>
+                <Col>
+                    <CardImg top width="100%" src={RealEstate} alt="cardn images cap"></CardImg>
+                </Col>
+            </Row>
+            <CardBody>
+            <CardTitle><h5>Marketing, Sales and Service</h5></CardTitle>
+            <CardSubtitle tag="h6" className="mb-2 text-muted">Interest in bringing others to a point of view through personal persuasion, using sales or promotional techniques.</CardSubtitle>
+            <CardText>
+                Advertising Salesperson&bull;
+                Buyer and Purchasing Agent&bull;
+                Customer Service Representative&bull;
+                Floral Designer&bull;
+                Market Research Analyst&bull;
+                Public Relations Specialist&bull;
+                Real Estate Agent&bull;
+                Sales Manager&bull;
+                Telemarketer
+            </CardText>
+            </CardBody>
+        </Card>
       </TabPanel>
       <TabPanel value={value} index={6}>
         Item Seven
+      </TabPanel>
+      <TabPanel value={value} index={7}>
+        Item Seven
+      </TabPanel>
+      <TabPanel value={value} index={8}>
+        Item Seven
+      </TabPanel>
+      <TabPanel value={value} index={9}>
+        Item Seven
+      </TabPanel>
+      <TabPanel value={value} index={10}>
+        Item Seven
+      </TabPanel>
+      <TabPanel value={value} index={11}>
+        Item Seven
+      </TabPanel>
+      <TabPanel value={value} index={12}>
+        12
+      </TabPanel>
+      <TabPanel value={value} index={13}>
+        13
       </TabPanel>
     </div>
   );
