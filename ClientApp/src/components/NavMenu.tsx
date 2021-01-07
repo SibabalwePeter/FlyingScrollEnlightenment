@@ -3,7 +3,8 @@ import { Collapse, Container, Navbar, NavbarToggler, NavItem, NavLink } from 're
 import { Link } from 'react-router-dom';
 import '../Styles/NavMenu.css';
 import logo from '../Pictures/FLYING SCROL LOGO.png'
-/* <img src={logo} alt='Logo' style={{width: 151, height: 76 }}/> */
+import logo2 from '../Pictures/Logo .png'
+/* <img src={logo} alt='Logo' style={{width: 151, height: 76 }}/> <h3><strong>Flying Scroll Enlightenment</strong></h3>*/
 export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }> {
     public state = {
         isOpen: false
@@ -12,9 +13,10 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
     public render() {
         return (
             <header>
+                
                 <Navbar className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
                     <Container>
-                        <h3><strong>Flying Scroll Enlightenment</strong></h3>
+                    <img src={logo2} alt='Logo' style={{width: 241, height: 121 }}/>
                         <NavbarToggler onClick={this.toggle} className="mr-2"/>
                         <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
                             <ul className="navbar-nav flex-grow">
