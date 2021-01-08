@@ -6,8 +6,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import {
-    Card, CardImg, CardTitle, CardText,
+import { Card, CardImg, CardTitle, CardText,
     CardSubtitle, CardBody, Row, Col
   } from 'reactstrap';
 import ArtsPicture from '../Pictures/Arts.jpg';

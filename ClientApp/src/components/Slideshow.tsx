@@ -27,21 +27,20 @@ const Slideshow = () => {
                         <div className="item active">
                             <img src={Science} alt="Los Angeles" />
                             <div className="carousel-caption">
-                                <h3>Los Angeles</h3>
-                                <p>LA is always so much fun!</p>
+                                <p>Flying Scroll Enlightenment (Pty) Ltd is a career development
+                                programme, education system programme, and youth development programme.</p>
                             </div>
                         </div>
                         <div className="item">
                             <img src={Accounting} alt="Chicago" />
                             <div className="carousel-caption">
-                                <h3>Chicago</h3>
-                                <p>Thank you, Chicago!</p>
+                                <p>Its holistic model system designed to break the cycle of
+                                    poverty and generational repetition of low educational attainment.</p>
                             </div>
                         </div>
                         <div className="item">
                             <img src={RealEstate} alt="New York" />
                             <div className="carousel-caption">
-                                <h3>New York</h3>
                                 <p>We love the Big Apple!</p>
                             </div>
                         </div>
