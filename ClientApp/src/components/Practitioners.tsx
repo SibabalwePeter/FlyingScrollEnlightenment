@@ -13,7 +13,7 @@ class Practitioners extends React.PureComponent {
                         Flying Scroll Enlightenment career development programme prepares high school learners to be more competitive in global economic activities
                         as 4IR integral strength of world economy. 
                     </p>
-                    <p>
+                <p >
                         Our career development programme provides a method for schools to systematise guidelines and learner experiences around various
                         categories encompass virtually all occupations from entry through professional levels. These alignment of occupations are used as an
                         organizing tool for programme design, a model for guidance and instruction, and a mechanism for continuous transition from secondary

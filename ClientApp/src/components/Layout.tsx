@@ -6,7 +6,7 @@ import Footer from './Footer'
 export default (props: { children?: React.ReactNode }) => (
     <React.Fragment>
         <NavMenu/>
-        <Container>
+        <Container className="text-justify">
             {props.children}
         </Container>
         <Footer/>
