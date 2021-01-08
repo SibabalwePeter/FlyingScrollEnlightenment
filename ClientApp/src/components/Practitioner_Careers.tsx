@@ -7,10 +7,9 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import {
-    Card, CardImg, CardTitle, CardText, CardDeck,
+    Card, CardImg, CardTitle, CardText,
     CardSubtitle, CardBody, Row, Col
   } from 'reactstrap';
-
 import ArtsPicture from '../Pictures/Arts.jpg';
 import Science from '../Pictures/Science.jpeg';
 import Farming from '../Pictures/Farming.jpeg';
@@ -28,7 +27,6 @@ import Finance from '../Pictures/Finance.jpeg';
 import HealthSciences from '../Pictures/HealthSciences.jpeg';
 import Transportation from '../Pictures/Transportation.jpeg';
 import Animals from '../Pictures/Animals.jpeg';
-
 
 function TabPanel(props: { [x: string]: any; children: any; value: any; index: any; }) {
   const { children, value, index, ...other } = props;
